@@ -1,4 +1,4 @@
-ShaneSpectralTest
+
 A repository focused on constructing a general spectral test implementation in Python and a visualization tool for lattice structures.
 
 Overview:
