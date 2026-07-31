@@ -1,13 +1,11 @@
 # ShaneSpectralTest
+A repository containing a general implementation of the spectral test for Linear Congruential Generators (LCGs), a batch evaluation framework for many generators, and a 3D visualization tool for lattice structures.
 
-A repository focused on constructing a general spectral test implementation in Python and a visualization tool for lattice structures.
-
-Overview:
-
+# Overview
 This repository contains the core code for Deliverables 1–3 of my DSoR project.
-It implements the spectral test for linear congruential generators (LCGs) using:
+It implements the spectral test for LCGs using geometry‑of‑numbers techniques, including:
 
-lattice construction
+lattice construction for s‑dimensional tuples
 
 LLL reduction
 
@@ -15,11 +13,12 @@ shortest‑vector extraction
 
 Tezuka‑normalized spectral score computation
 
-It also includes an interactive 3D visualization tool for exploring lattice structures.
+The repository also includes an interactive 3D visualization tool for exploring lattice structures and illustrating geometric differences between good and bad generators.
 
-Contents:
+# Contents
+## Spectral Test Implementation
 
-Lattice construction for s‑dimensional spectral tests
+Construction of s‑dimensional LCG lattices
 
 LLL reduction (NumPy/SymPy‑based)
 
@@ -29,21 +28,32 @@ Spectral score evaluation
 
 Jupyter notebook demonstrating the full pipeline
 
-Interactive 3D lattice visualization tool
+## LCG Batch Evaluation
+Database of 50+ LCG configurations
 
-Usage:
+Automated spectral‑score computation
 
-Run the respective Jupyter notebooks to execute the spectral‑test components you wish to explore.
-You can compute spectral scores for sample LCG parameters or interact with the 3D lattice visualization.
+Comparative analysis across generators
 
-Project Components:
+## 3D Lattice Visualization
+Interactive Plotly‑based visualization
 
-Python implementation of the spectral test with LLL reduction.
+Exploration of geometric structure in 3D
 
-Batch evaluation of 50+ LCG configurations.
+Demonstrations of good vs. bad LCG behavior
 
-Interactive visualization tool.
+Useful for presentation screenshots and conceptual explanation
 
+# How to Use This Repository
+Run the included Jupyter notebooks to explore the components of the spectral test:
 
-License:
+Spectral Test Notebook — compute spectral scores for sample LCG parameters
+
+Batch Evaluation Notebook — evaluate many LCGs automatically
+
+3D Visualization Notebook — interactively explore lattice geometry
+
+Each notebook is self‑contained and can be executed in any standard Python/Jupyter environment.
+
+License
 MIT License
